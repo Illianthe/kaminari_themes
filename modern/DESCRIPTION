@@ -1,0 +1,5 @@
+A dark, sleek theme for Kaminari with prev/next/first/last
+buttons present (and potentially disabled) by default.
+
+To install, copy the app directory into your Rails application.
+Adjust and restyle as needed.

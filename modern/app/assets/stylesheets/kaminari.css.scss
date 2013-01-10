@@ -1,0 +1,36 @@
+nav.pagination {
+  text-align: center;
+
+  span {
+    a, &.current, &.disabled {
+      background-color: #000;
+      border: 1px solid #333;
+      display: inline-block;
+      color: #aaa;
+      padding: 10px;
+
+      &:hover {
+        border-color: #7db119;
+        color: #7db119;
+      }
+    }
+
+    &.current {
+      border-color: #7db119;
+      color: #7db119;
+    }
+
+    &.disabled {
+      color: #333;
+
+      &:hover {
+        color: #333;
+        border-color: #333;
+      }
+    }
+
+    &.gap {
+      margin: 0 5px;
+    }
+  }
+}
